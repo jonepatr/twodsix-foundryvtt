@@ -8,7 +8,7 @@ on:
 
 jobs:
   test:
-    if: github.repository == 'xdy/twodsix-foundryvtt'
+    if: github.repository == 'xdy/twodsix-foundryvtt' || github.repository == 'jonepatr/twodsix-foundryvtt'
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -45,7 +45,7 @@ jobs:
 
   release:
     # Only release on push to master or development on xdy/twodsix-foundryvtt
-    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/development') && github.repository == 'xdy/twodsix-foundryvtt'
+    if: github.event_name == 'push' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/development') && (github.repository == 'xdy/twodsix-foundryvtt' || github.repository == 'jonepatr/twodsix-foundryvtt')
     runs-on: ubuntu-latest
     # Waits for test jobs for each Node.js version to complete
     needs: [test]
