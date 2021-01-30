@@ -1,3 +1,10 @@
+# [1.0.0-development.2](https://github.com/jonepatr/twodsix-foundryvtt/compare/v1.0.0-development.1...v1.0.0-development.2) (2021-01-30)
+
+
+### Bug Fixes
+
+* testing, is  this working ([9961e69](https://github.com/jonepatr/twodsix-foundryvtt/commit/9961e69fadef2d1aaee17663f03e60f41f9caab6))
+
 # 1.0.0-development.1 (2021-01-29)
 
 
