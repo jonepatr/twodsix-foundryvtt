@@ -1,11 +1,10 @@
 {
-"manifest": "https://github.com/xdy/twodsix-foundryvtt/releases/download/v$1/system.json",
   "name": "twodsix",
   "title": "Twodsix - Cepheus & Traveller (Unofficial)",
   "url": "https://github.com/xdy/twodsix-foundryvtt/",
-"manifest": "https://github.com/xdy/twodsix-foundryvtt/releases/download/v$1/system.json",
+  "manifest": "https://github.com/xdy/twodsix-foundryvtt/releases/dowlnload/v1.0.0-development.1/system.json",
   "readme": "https://raw.githubusercontent.com/xdy/twodsix-foundryvtt/master/README.md",
-  "download": "https://github.com/xdy/twodsix-foundryvtt/releases/download/v$1/system.json",
+  "download": "https://github.com/xdy/twodsix-foundryvtt/releases/dowlnload/v1.0.0-development.1/system.json",
   "version": "1.0.0-development.1",
   "author": "Jonas Karlsson (xdy#3735), Kevin Maree (Ultra Kev#9816)",
   "bugs": "Plenty of them, this is an early alpha...",
@@ -109,7 +108,6 @@
   "primaryTokenAttribute": "hits",
   "styles": ["./styles/twodsix.css"],
   "templateVersion": 2,
-"manifest": "https://github.com/xdy/twodsix-foundryvtt/releases/download/v$1/system.json",
   "authors": [
     {
       "name": "Jonas Karlsson",
@@ -140,8 +138,7 @@
   "dependencies": [
     {
       "type": "module",
-      "name": "compendium-folders",
-"manifest": "https://github.com/xdy/twodsix-foundryvtt/releases/download/v$1/system.json",
+      "name": "compendium-folders"
     }
   ]
 }
